@@ -1,0 +1,128 @@
+body{
+  background-color: rgb(66, 1, 61);
+}
+.secRight{
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 100%;
+  margin: 0;
+  
+}
+.thumbnail{
+  position:relative;
+  height: 500px;
+  display: flex;
+  margin-top: 20px;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  max-width: 100%;
+  margin: 0;
+
+}
+.birthday{
+  color: rgb(245, 224, 34);
+  font-family: "Caveat", serif;
+  font-size: 160px;
+  text-align: center;
+  margin: 0;
+}
+.happy{
+  color: rgb(245, 224, 34);
+  font-family: "Caveat", serif;
+  font-size: 70px;
+  text-align: left;
+  margin: 0;
+}
+.paras{
+  padding: 0px 65px;
+}
+.imgfluid{
+  height: 700px;
+  width: 700px;
+  border-radius: 20% 40%;
+  top: 150px;
+  position: relative;
+}
+.left{
+  height: 863px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 100%;
+  margin: 0;
+flex-direction: row-reverse;
+  
+}
+.firstpara{
+  color: rgb(250, 124, 6);
+  text-align:center;
+  font-size: 42px;
+  margin: 0;
+  width: 623px;
+  border-radius: 10%;
+  background-color: rgb(4, 4, 71);
+}
+
+.big{
+  Display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      max-width: 100%;
+      margin: 0;
+}
+.bigparas{
+  padding:20px 45px
+}
+.no{
+  font-family: "Shadows Into Light", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.yoy{
+  font-family: "Pacifico", serif;
+}
+.Rightpara{
+  color: rgb(155, 185, 211) ;
+  text-align: justify;
+  font-size: 42px;
+  margin: 0;
+  width: 591px;
+  display: flex;
+  padding: 0px 20px;
+  position: absolute;
+  left: 720px;
+  background-image: url('https://th.bing.com/th/id/OIP.VzVnJYHvQZb5qDt-3CukbQHaEs?rs=1&pid=ImgDetMain');
+}
+.thumbnail :hover{
+  transform: scale(1.2);
+  z-index: 2;
+}
+.paras :hover{
+ transform: scale(1.1);
+ transition-delay: 2ms;
+ z-index: 2;
+}
+.rr{
+  border-radius: 60vw;
+}
+.ry{
+  border-radius: 30vw 10vw;
+  padding: 88px;
+}
+.ss{
+  border-radius: 10vw 65vw;
+}
+.sk{
+  border-radius: 65vw 10vw;
+}
+.op{
+  border-radius: 10vw 5vw;
+}
+.cake{
+  border-radius: 50%;
+}
+.choco{
+  border-radius: 50%;
+}
